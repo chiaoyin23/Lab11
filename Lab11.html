@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab11</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	var rand = Math.floor((Math.random()*10+1));
+	var input;
+	input = window.prompt("Please guess the number 1-10");
+
+	while(input != rand){
+		input = window.prompt("Try again!");
+	}
+
+		alert("Correct!");
+		document.write("Please press F5 to play the game again.");
+
+
+
+</script>
+</body>
+</html>
